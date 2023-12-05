@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-size: 40px; */
+  Font-family: Montserrat,Sans;
+  scroll-behavior: smooth;
+}
+ body{
+    
+Font-family: Orbitron;
+    background-color: rgba(197, 184, 11, 0.735);
+ }
+ .fa {
+    float: right;
+ }
+ .vl {
+    border-left: 1px solid rgb(12, 3, 3);
+    height: 100%;
+    position: absolute;
+    /* left: 50%; */
+    /* margin-left: 323px; */
+    /* margin-right: -190px; */
+    justify-content: end;
+    top: 0;
+   
+  }
+  #myDiv {
+    transform: rotateZ(90deg);
+    margin-left: 120px;
+    word-spacing: 1cm;
+    font-size: 17px;
+  }
+  /* #sky {
+    height: 100%;
+  } */
+  
+  .star {
+    background-color: #000029;
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.4);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 2px;
+    background-color: white;
+  }
+  .navbar{
+    /* margin-top: 50px; */
+    margin-left: -10px;
+  }
+  /*   clip-path: polygon(100% 30.0000px ,100% calc(100% - 30.0000px),100% calc(100% - 30.0000px),calc(100% - 0.3945px) calc(100% - 25.1505px),calc(100% - 1.5360px) calc(100% - 20.5440px),calc(100% - 3.3615px) calc(100% - 16.2435px),calc(100% - 5.8080px) calc(100% - 12.3120px),calc(100% - 8.8125px) calc(100% - 8.8125px),calc(100% - 12.3120px) calc(100% - 5.8080px),calc(100% - 16.2435px) calc(100% - 3.3615px),calc(100% - 20.5440px) calc(100% - 1.5360px),calc(100% - 25.1505px) calc(100% - 0.3945px),calc(100% - 30.0000px) calc(100% - 0.0000px),30.0000px  100%,30.0000px  100%,25.1505px  calc(100% - 0.3945px),20.5440px  calc(100% - 1.5360px),16.2435px  calc(100% - 3.3615px),12.3120px  calc(100% - 5.8080px),8.8125px  calc(100% - 8.8125px),5.8080px  calc(100% - 12.3120px),3.3615px  calc(100% - 16.2435px),1.5360px  calc(100% - 20.5440px),0.3945px  calc(100% - 25.1505px),0.0000px  calc(100% - 30.0000px),0.0000px  30.0000px ,0.0000px  30.0000px ,0.3945px  25.1505px ,1.5360px  20.5440px ,3.3615px  16.2435px ,5.8080px  12.3120px ,8.8125px  8.8125px ,12.3120px  5.8080px ,16.2435px  3.3615px ,20.5440px  1.5360px ,25.1505px  0.3945px ,30.0000px  0.0000px ,calc(50% - 90.0000px) 0.0000px ,calc(50% - 90.0000px) 0.0000px ,calc(50% - 87.5631px) 0.1986px ,calc(50% - 85.2528px) 0.7728px ,calc(50% - 83.0997px) 1.6902px ,calc(50% - 81.1344px) 2.9184px ,calc(50% - 79.3875px) 4.4250px ,calc(50% - 77.8896px) 6.1776px ,calc(50% - 76.6713px) 8.1438px ,calc(50% - 75.7632px) 10.2912px ,calc(50% - 75.1959px) 12.5874px ,calc(50% - 75.0000px) 15.0000px ,calc(50% - 75.0000px) 35.0000px ,calc(50% - 75.0000px) 35.0000px ,calc(50% - 74.8014px) 37.4369px ,calc(50% - 74.2272px) 39.7472px ,calc(50% - 73.3098px) 41.9003px ,calc(50% - 72.0816px) 43.8656px ,calc(50% - 70.5750px) 45.6125px ,calc(50% - 68.8224px) 47.1104px ,calc(50% - 66.8562px) 48.3287px ,calc(50% - 64.7088px) 49.2368px ,calc(50% - 62.4126px) 49.8041px ,calc(50% - 60.0000px) 50.0000px ,calc(50% + 60.0000px) 50.0000px ,calc(50% + 60.0000px) 50.0000px ,calc(50% + 62.4369px) 49.8014px ,calc(50% + 64.7472px) 49.2272px ,calc(50% + 66.9003px) 48.3098px ,calc(50% + 68.8656px) 47.0816px ,calc(50% + 70.6125px) 45.5750px ,calc(50% + 72.1104px) 43.8224px ,calc(50% + 73.3287px) 41.8562px ,calc(50% + 74.2368px) 39.7088px ,calc(50% + 74.8041px) 37.4126px ,calc(50% + 75.0000px) 35.0000px ,calc(50% + 75.0000px) 15.0000px ,calc(50% + 75.0000px) 15.0000px ,calc(50% + 75.1986px) 12.5631px ,calc(50% + 75.7728px) 10.2528px ,calc(50% + 76.6902px) 8.0997px ,calc(50% + 77.9184px) 6.1344px ,calc(50% + 79.4250px) 4.3875px ,calc(50% + 81.1776px) 2.8896px ,calc(50% + 83.1438px) 1.6713px ,calc(50% + 85.2912px) 0.7632px ,calc(50% + 87.5874px) 0.1959px ,calc(50% + 90.0000px) 0.0000px ,calc(100% - 30.0000px) 0.0000px ,calc(100% - 30.0000px) 0.0000px ,calc(100% - 25.1505px) 0.3945px ,calc(100% - 20.5440px) 1.5360px ,calc(100% - 16.2435px) 3.3615px ,calc(100% - 12.3120px) 5.8080px ,calc(100% - 8.8125px) 8.8125px ,calc(100% - 5.8080px) 12.3120px ,calc(100% - 3.3615px) 16.2435px ,calc(100% - 1.5360px) 20.5440px ,calc(100% - 0.3945px) 25.1505px ,calc(100% - 0.0000px) 30.0000px );  */
+  .box{
+    margin-left: -190px;
+    /* margin-top: -50px; */
+    padding:500px;
+    width: 1200px; 
+  height: 135px; 
+  /* clip-path: polygon(27.4% 19%, 73.5% 20.3%, 99.7% 2%, 100% 99.8%, 75.9% 86%, 26.5% 85%, 0.1% 99.8%, 0.3% 0%); */
+  /* clip-path: polygon(30% 30.8%, 72.7% 31.5%, 98.6% 0.8%, 99.5% 99.8%, 73.9% 80.5%, 30.7% 81.5%, 0% 100%, 0.2% 0%); */
+  /* clip-path: polygon(0% 0%, 31.43% 0.11%, 32.29% 0.1%, 41.2% 7.77%, 60.88% 7.77%, 68.52% 0.25%, 99.89% 0.11%, 99.89% 100%, 64.6% 100%, 59.08% 94.84%, 40.2% 94.84%, 34.03% 100%, 0.14% 100%, 0.29% 54.09%); */
+background-color: #000000;
+clip-path: polygon(0% 0%, 31.43% 0.11%, 32.29% 0.1%, 41.2% 7.77%, 60.88% 7.77%, 68.52% 0.25%, 99.89% 0.11%, 99.89% 94.08%, 64% 94.08%, 54.37% 88.04%, 40.33% 88.04%, 32.21% 92.11%, 0% 92.11%, 0.29% 54.09%);
+
+  /* background-color: bisque; */
+  }
+  #moon{
+    margin-top: -350px;
+    margin-left:-140px ;
+    border-top: 1px solid yellow; 
+    border-bottom: 1px solid yellow; 
+    color:rgba(197, 184, 11, 0.735);
+  }
+  #Boxse{
+    margin-top: -1px;
+    margin-left:-140px ;
+    color:rgba(197, 184, 11, 0.735);
+  }
+  button{
+   
+    /* CSS */
+
+  }
+  .w3-button
+   {
+    margin-left: -140px;
+    color:#000000;
+    background-color:rgba(197, 184, 11, 0.735); 
+    /* border-radius: 8px;
+    border:none;*/
+  } 
+  
+
+  .carousel {
+    border:none;
+    border-radius: 8px;
+  }
+  
+  .carousel-inner, .carousel, .carousel-item, .carousel-container {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .carousel-item-prev:not(.carousel-item-end), .active.carousel-item-start {
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+  }
+  
+  .carousel-item-next:not(.carousel-item-start), .active.carousel-item-end {
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+  }
+  
+  .carousel-indicators {
+    top: 0;
+    margin: auto;
+    height: 20px;
+    right: 10px;
+    left: auto;
+    display: block;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background: none;
+    border:none;
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .carousel-indicators li.active {
+    background: rgb(212, 212, 212);
+  }
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    z-index: -1;
+    color:rgba(197, 184, 11, 0.735);
+  }
+  
+  .carousel-control-prev-icon {
+    top: 5%;
+  }
+  
+  .unclickable {
+    pointer-events: none;
+  }
+  
+  .clickable {
+    pointer-events: all;
+  }
+  
+  .btn-style {
+   
+   
+    width: calc(1.475rem + 2.7vw);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 4px;
+  }
+  
+  .btn-style:hover {
+    background-color: black;
+   
+    width: calc(1.475rem + 2.7vw);
+  }
+  
+  .img-style {
+    width: calc(1.475rem + 2.7vw);
+  }
+  
+  .img-style:hover {
+    width: calc(1.475rem + 2.7vw);
+  }
+  
+  .jello-horizontal {
+    -webkit-animation: jello-horizontal 0.9s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3 both;
+            animation: jello-horizontal 0.9s cubic-bezier(0.175, 0.885, 0.320, 1.275) 3 both;
+  }
+  
+  /* ----------------------------------------------
+   * Generated by Animista on 2022-2-15 8:33:53
+   * Licensed under FreeBSD License.
+   * See http://animista.net/license for more info. 
+   * w: http://animista.net, t: @cssanimista
+   * ---------------------------------------------- */
+  
+  /**
+   * ----------------------------------------
+   * animation jello-horizontal
+   * ----------------------------------------
+   */
+   @-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .slider{
+    max-width: 1100px;
+    display: flex;
+  }
+  .slider .card{
+    flex: 1;
+    margin: 0 10px;
+    background: #fff;
+  }
+  .slider .card .img{
+    height: 200px;
+    width: 100%;
+  }
+  .slider .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .slider .card .content{
+    padding: 10px 20px;
+  }
+  .card .content .title{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .card .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+  }
+  .card .content p{
+    text-align: justify;
+    margin: 10px 0;
+  }
+  .card .content .btn{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+  }
+  .card .content .btn button{
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .card .content .btn button:hover{
+    transform: scale(0.9);
+  }
+
+  
